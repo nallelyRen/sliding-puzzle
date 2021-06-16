@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+html {
+    font-size: 175%;        
+  }
+  body {
+    display: flex;    
+    align-items: center; 
+    justify-content: center;  
+    flex-direction: column; 
+    color: white; 
+    background-size: 100% 100%;
+    background-position: 0px 0px;
+    background-image: linear-gradient(89deg, #A100FFFF 0%, #71C4FFFF 100%);
+    font-family: 'Montserrat', sans-serif;
+     }
+ 
+.puzzle{
+display: table;
+}
+.row1{
+    display: table-row;
+}
+.row2{
+    display: table-row;
+}
+.row3{
+    display: table-row;
+}
+
+.section1, .section2, .section3, .section4, .section5, .section6, .section7, .section8, .section9 {
+    display: table-cell;
+    font-size: 3rem;
+    width: 120px;
+    height: 120px;
+    border: 1px solid white;
+    padding-top: 5%;
+    text-align: center; 
+    cursor: pointer;
+  }
+  button{
+    font-family: 'Montserrat', sans-serif;
+    background: none;
+    color: white;
+    margin-top: 2%;
+    font-size: 1rem;
+    padding: 1%;
+}
